@@ -16,7 +16,7 @@ body {
 .principal {
     background-color: rgb(255, 255, 255);
     height: 95%;
-    width: 77%;
+    width: 55%;
 
 }
 
@@ -56,7 +56,14 @@ header button {
 
 .hero-section {
     padding: 10px 12px;
-    height: 80px;
+    height: 165px;
     border: 5px solid #ced3d3;
     margin: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section-image {
+    padding: 50px;
+    background-color: #ced3d3;
 }
