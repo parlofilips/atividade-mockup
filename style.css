@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(190, 190, 190);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.principal {
+    background-color: rgb(255, 255, 255);
+    height: 95%;
+    width: 77%;
+
+}
+
+header {
+    height: 8%;
+    display: flex;
+    padding: 10px 12px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid #ced3d3;
+    margin: 17px;
+}
+
+.logo {
+    padding: 14px;
+    background-color: #ced3d3;
+}
+
+.link-container {
+    display: flex;
+    gap: 10px;
+}
+
+.link-container li {
+    padding: 10px;
+    background-color: #ced3d3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header button {
+    padding: 14px;
+}
+
+.hero-section {
+    padding: 10px 12px;
+    height: 80px;
+    border: 5px solid #ced3d3;
+    margin: 17px;
+}
